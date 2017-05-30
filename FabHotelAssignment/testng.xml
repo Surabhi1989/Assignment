@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FabHotelAssignment">
+	<test name="DateSelection">
+		<classes>
+			<class name="src.test.DateTest" />
+		</classes>
+	</test>
+	
+	<test name="HoteCount">
+		<classes>
+			<class name="src.test.TotalHotels" />
+		</classes>
+	</test>
+	<test name="Booking">
+		<classes>
+			<class name="src.test.bookingTest" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
